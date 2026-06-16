@@ -21,7 +21,7 @@ from sklearn.model_selection import GroupKFold
 
 
 RESULT_ROOT  = Path("./results").resolve()
-WEIGHTS_PATH = Path("./externals/pre-trained/Uformer_B.pth").resolve()
+WEIGHTS_PATH = Path("./externals/pre-trained/Uformer_B.pt").resolve()
 
 CONFIG = lighter.Config(
     {
